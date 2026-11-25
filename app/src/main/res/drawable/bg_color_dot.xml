@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Projet : DecoMind
+  Fichier : bg_color_dot.xml
+  Description : Pastille de couleur ronde (ressource shape)
+  Responsable(s) :
+  - Aouifia Doha
+  - Lahroum Amina
+  - El Guettafi Soukaina
+  - Gamran Nour El Houda
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/card_stroke" />
+    <stroke
+        android:width="2dp"
+        android:color="@color/primary_dark" />
+    <size
+        android:width="32dp"
+        android:height="32dp" />
+</shape>

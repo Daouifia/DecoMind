@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Projet : DecoMind
+  Fichier : colors.xml
+  Description : Couleurs de l'application (centralisées)
+  Responsable(s) :
+  - Aouifia Doha
+  - Lahroum Amina
+  - El Guettafi Soukaina
+  - Gamran Nour El Houda
+-->
+<resources>
+    <color name="primary">#6D4C41</color>
+    <color name="primary_dark">#4E342E</color>
+    <color name="accent">#26A69A</color>
+    <color name="background">#FAF6F2</color>
+    <color name="text_primary">#3E2723</color>
+    <color name="card_stroke">#D7CCC8</color>
+    <color name="error_red">#C62828</color>
+    <color name="success_green">#2E7D32</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Couleurs des palettes de décoration -->
+    <color name="c_sand">#E0C9A6</color>
+    <color name="c_terracotta">#C86B4A</color>
+    <color name="c_ecru">#F3EBDD</color>
+    <color name="c_brown">#5D4037</color>
+    <color name="c_night_blue">#37474F</color>
+    <color name="c_blue_grey">#90A4AE</color>
+    <color name="c_ice_white">#ECEFF1</color>
+    <color name="c_turquoise">#4DB6AC</color>
+    <color name="c_sage">#6B8F71</color>
+    <color name="c_light_green">#AEC3AE</color>
+    <color name="c_cream">#E9EDC9</color>
+    <color name="c_forest">#3E5641</color>
+    <color name="c_saffron">#E4A11B</color>
+    <color name="c_spice_red">#B5412F</color>
+    <color name="c_majorelle">#2E4DA7</color>
+    <color name="c_ivory">#FFF8E7</color>
+</resources>

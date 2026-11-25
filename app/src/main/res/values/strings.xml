@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Projet : DecoMind
+  Fichier : strings.xml
+  Description : Textes de l'application (centralisés)
+  Responsable(s) :
+  - Aouifia Doha
+  - Lahroum Amina
+  - El Guettafi Soukaina
+  - Gamran Nour El Houda
+-->
+<resources>
+    <string name="app_name">DecoMind</string>
+
+    <!-- Commun -->
+    <string name="ok">OK</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="btn_save">Enregistrer</string>
+    <string name="btn_cancel">Annuler</string>
+    <string name="none_value">-</string>
+    <string name="price_format">%1$s DH</string>
+
+    <!-- Accueil -->
+    <string name="title_main">Mes projets</string>
+    <string name="btn_new_project">Nouveau projet</string>
+    <string name="btn_sort">Trier</string>
+    <string name="empty_projects">Aucun projet. Créez-en un !</string>
+    <string name="project_line">%1$d pièce(s) - budget : %2$s DH</string>
+    <string name="menu_new_project">Nouveau projet</string>
+    <string name="menu_refresh">Actualiser</string>
+    <string name="menu_about">À propos</string>
+    <string name="sort_name">Par nom</string>
+    <string name="sort_budget">Par budget</string>
+    <string name="list_refreshed">Liste actualisée</string>
+    <string name="about_title">À propos</string>
+    <string name="about_message">DecoMind - Assistant de décoration intérieure\nEMSI - Développement Mobile - TP1\nGroupe 7</string>
+    <string name="delete_project_title">Supprimer le projet</string>
+    <string name="delete_project_message">Voulez-vous vraiment supprimer le projet « %1$s » ?</string>
+    <string name="project_deleted">Projet supprimé</string>
+
+    <!-- Formulaire projet -->
+    <string name="title_new_project">Nouveau projet</string>
+    <string name="title_edit_project">Modifier le projet</string>
+    <string name="label_project_name">Nom</string>
+    <string name="hint_project_name">Nom du projet</string>
+    <string name="label_project_description">Description</string>
+    <string name="hint_project_description">Description du projet</string>
+    <string name="error_project_name">Veuillez saisir le nom du projet</string>
+    <string name="project_saved">Projet enregistré</string>
+
+    <!-- Fiche projet -->
+    <string name="title_project_detail">Fiche du projet</string>
+    <string name="label_rooms">Pièces du projet</string>
+    <string name="select_room_hint">Sélectionnez une pièce dans la liste pour afficher ses informations.</string>
+    <string name="select_room_first">Sélectionnez d\'abord une pièce</string>
+    <string name="no_reminder">Aucun rappel programmé</string>
+    <string name="reminder_label">Rappel : %1$s</string>
+    <string name="reminder_saved">Rappel programmé</string>
+    <string name="btn_add_room">Ajouter une pièce</string>
+    <string name="btn_edit_room">Modifier</string>
+    <string name="btn_delete_room">Supprimer</string>
+    <string name="btn_furniture">Consulter les meubles</string>
+    <string name="btn_decoration">Personnaliser la décoration</string>
+    <string name="btn_budget">Voir le budget</string>
+    <string name="room_line">%1$s - %2$s - %3$s m²</string>
+    <string name="room_info">Type : %1$s\nDimensions : %2$s x %3$s x %4$s m\nSuperficie : %5$s m²\nStyle : %6$s\nCouleurs : %7$s\nMeubles sélectionnés : %8$d</string>
+    <string name="delete_room_title">Supprimer la pièce</string>
+    <string name="delete_room_message">Voulez-vous vraiment supprimer la pièce « %1$s » ?</string>
+    <string name="room_deleted">Pièce supprimée</string>
+    <string name="menu_edit_project">Modifier le projet</string>
+    <string name="menu_delete_project">Supprimer le projet</string>
+    <string name="menu_set_reminder">Programmer un rappel</string>
+
+    <!-- Formulaire pièce -->
+    <string name="title_room_form">Pièce</string>
+    <string name="title_new_room">Nouvelle pièce</string>
+    <string name="title_edit_room">Modifier la pièce</string>
+    <string name="btn_add_photo">Ajouter une photo</string>
+    <string name="label_room_type">Type</string>
+    <string name="label_room_name">Nom</string>
+    <string name="hint_room_name">Nom de la pièce</string>
+    <string name="label_length">Longueur (m)</string>
+    <string name="label_width">Largeur (m)</string>
+    <string name="label_height">Hauteur (m)</string>
+    <string name="area_label">Superficie : %1$s m²</string>
+    <string name="error_room_name">Veuillez saisir le nom de la pièce</string>
+    <string name="error_dimensions">Veuillez saisir des dimensions valides (supérieures à 0)</string>
+    <string name="room_saved">Pièce enregistrée</string>
+
+    <!-- Catalogue -->
+    <string name="title_catalog">Catalogue de meubles</string>
+    <string name="catalog_room_info">Pièce : %1$s - %2$d meuble(s) sélectionné(s)</string>
+    <string name="hint_search">Rechercher un meuble par son nom</string>
+    <string name="label_category_filter">Catégorie</string>
+    <string name="label_price_filter">Prix</string>
+    <string name="results_count">%1$d résultat(s)</string>
+    <string name="item_added">%1$d x %2$s ajouté(s) à la pièce %3$s</string>
+
+    <!-- Détail meuble -->
+    <string name="title_furniture_detail">Détail du meuble</string>
+    <string name="label_quantity">Quantité</string>
+    <string name="total_label">Total : %1$s DH</string>
+    <string name="btn_add_to_room">Ajouter à ma pièce</string>
+
+    <!-- Décoration -->
+    <string name="title_decoration">Personnaliser la décoration</string>
+    <string name="decoration_room">Pièce : %1$s</string>
+    <string name="label_style">Style de décoration</string>
+    <string name="style_modern">Moderne</string>
+    <string name="style_classic">Classique</string>
+    <string name="style_minimalist">Minimaliste</string>
+    <string name="style_bohemian">Bohème</string>
+    <string name="label_palette">Palette de couleurs</string>
+    <string name="label_colors">Couleurs à sélectionner</string>
+    <string name="label_preview">Aperçu des couleurs choisies</string>
+    <string name="error_style">Veuillez choisir un style</string>
+    <string name="decoration_saved">Préférences de décoration enregistrées</string>
+    <string name="palette_earth">Terre et sable</string>
+    <string name="palette_nordic">Bleu nordique</string>
+    <string name="palette_sage">Vert sauge</string>
+    <string name="palette_orient">Orient chaleureux</string>
+    <string name="color_sand">Sable</string>
+    <string name="color_terracotta">Terracotta</string>
+    <string name="color_ecru">Écru</string>
+    <string name="color_brown">Brun</string>
+    <string name="color_night_blue">Bleu nuit</string>
+    <string name="color_blue_grey">Gris bleuté</string>
+    <string name="color_ice_white">Blanc glacé</string>
+    <string name="color_turquoise">Turquoise</string>
+    <string name="color_sage">Sauge</string>
+    <string name="color_light_green">Vert clair</string>
+    <string name="color_cream">Crème</string>
+    <string name="color_forest">Vert forêt</string>
+    <string name="color_saffron">Safran</string>
+    <string name="color_spice_red">Rouge épice</string>
+    <string name="color_majorelle">Bleu majorelle</string>
+    <string name="color_ivory">Ivoire</string>
+
+    <!-- Budget -->
+    <string name="title_budget">Budget et récapitulatif</string>
+    <string name="budget_total">Budget prévisionnel : %1$s DH</string>
+    <string name="budget_spent">Dépenses : %1$s DH</string>
+    <string name="budget_remaining">Budget restant : %1$s DH</string>
+    <string name="hint_new_budget">Nouveau budget (DH)</string>
+    <string name="btn_update_budget">Mettre à jour</string>
+    <string name="budget_updated">Budget mis à jour</string>
+    <string name="error_budget">Veuillez saisir un budget valide</string>
+    <string name="label_lines">Meubles sélectionnés par pièce</string>
+    <string name="budget_line">%1$s : %2$s x%3$d = %4$s DH</string>
+    <string name="btn_minus">- 1</string>
+    <string name="btn_plus">+ 1</string>
+    <string name="btn_remove">Supprimer</string>
+    <string name="label_recap">Récapitulatif des choix de décoration</string>
+    <string name="recap_room">%1$s - style : %2$s - couleurs : %3$s</string>
+    <string name="recap_empty">Aucune pièce dans ce projet.</string>
+    <string name="btn_edit_furniture">Modifier les meubles</string>
+    <string name="btn_share">Partager le projet</string>
+    <string name="btn_back_project">Retour au projet</string>
+    <string name="select_line_first">Sélectionnez d\'abord un meuble dans la liste</string>
+    <string name="no_room_yet">Ajoutez d\'abord une pièce au projet</string>
+    <string name="over_budget_title">Dépassement de budget</string>
+    <string name="over_budget_message">Les dépenses dépassent le budget de %1$s DH.</string>
+    <string name="item_removed">Meuble supprimé</string>
+    <string name="share_subject">Projet de décoration : %1$s</string>
+    <string name="share_title">Projet DecoMind : %1$s</string>
+    <string name="share_item">%1$s x%2$d = %3$s DH</string>
+    <string name="share_chooser">Partager le projet avec</string>
+
+    <string-array name="room_types">
+        <item>Salon</item>
+        <item>Chambre</item>
+        <item>Cuisine</item>
+        <item>Salle de bain</item>
+        <item>Bureau</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="categories_filter">
+        <item>Toutes les catégories</item>
+        <item>Canapés</item>
+        <item>Tables</item>
+        <item>Chaises</item>
+        <item>Luminaires</item>
+        <item>Décoration</item>
+        <item>Rangement</item>
+    </string-array>
+
+    <string-array name="price_filter">
+        <item>Tous les prix</item>
+        <item>Moins de 1000 DH</item>
+        <item>De 1000 à 3000 DH</item>
+        <item>Plus de 3000 DH</item>
+    </string-array>
+</resources>

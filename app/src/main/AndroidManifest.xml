@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Projet : DecoMind
+  Fichier : AndroidManifest.xml
+  Description : Déclaration de l'application et de ses 8 activités
+  Responsable(s) :
+  - Aouifia Doha
+  - Lahroum Amina
+  - El Guettafi Soukaina
+  - Gamran Nour El Houda
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DecoMind">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/title_main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ProjectFormActivity"
+            android:exported="false"
+            android:label="@string/title_new_project"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".ProjectDetailActivity"
+            android:exported="false"
+            android:label="@string/title_project_detail"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".RoomFormActivity"
+            android:exported="false"
+            android:label="@string/title_room_form"
+            android:parentActivityName=".ProjectDetailActivity" />
+
+        <activity
+            android:name=".FurnitureCatalogActivity"
+            android:exported="false"
+            android:label="@string/title_catalog"
+            android:parentActivityName=".ProjectDetailActivity" />
+
+        <activity
+            android:name=".FurnitureDetailActivity"
+            android:exported="false"
+            android:label="@string/title_furniture_detail"
+            android:parentActivityName=".FurnitureCatalogActivity" />
+
+        <activity
+            android:name=".DecorationActivity"
+            android:exported="false"
+            android:label="@string/title_decoration"
+            android:parentActivityName=".ProjectDetailActivity" />
+
+        <activity
+            android:name=".BudgetSummaryActivity"
+            android:exported="false"
+            android:label="@string/title_budget"
+            android:parentActivityName=".ProjectDetailActivity" />
+    </application>
+</manifest>

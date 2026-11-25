@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Projet : DecoMind
+  Fichier : ic_storage.xml
+  Description : Icône étagère (catégorie Rangement)
+  Responsable(s) :
+  - El Guettafi Soukaina
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@color/primary"
+        android:fillType="evenOdd"
+        android:pathData="M4,3h16v18H4z M6,5h12v4H6z M6,11h12v4H6z M6,17h12v2H6z" />
+</vector>

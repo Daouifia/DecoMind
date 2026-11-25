@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Projet : DecoMind
+  Fichier : menu_sort.xml
+  Description : PopupMenu de tri de la liste des projets
+  Responsable(s) :
+  - Aouifia Doha
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sort_name"
+        android:title="@string/sort_name" />
+    <item
+        android:id="@+id/sort_budget"
+        android:title="@string/sort_budget" />
+</menu>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Projet : DecoMind
+  Fichier : activity_budget_summary.xml
+  Description : Interface graphique du budget et du récapitulatif du projet
+  Responsable(s) :
+  - Gamran Nour El Houda
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_budget"
+            style="@style/DecoLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_spent"
+            style="@style/DecoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_remaining"
+            style="@style/DecoLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_budget"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/hint_new_budget"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal" />
+
+            <Button
+                android:id="@+id/btn_update_budget"
+                style="@style/DecoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_update_budget" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/DecoLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_lines" />
+
+        <ListView
+            android:id="@+id/list_lines"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_card"
+            android:nestedScrollingEnabled="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_minus"
+                style="@style/DecoButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_minus" />
+
+            <Button
+                android:id="@+id/btn_plus"
+                style="@style/DecoButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_plus" />
+
+            <Button
+                android:id="@+id/btn_remove"
+                style="@style/DecoButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/btn_remove" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/DecoLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_recap" />
+
+        <TextView
+            android:id="@+id/tv_recap"
+            style="@style/DecoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_edit_furniture"
+                style="@style/DecoButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_edit_furniture" />
+
+            <Button
+                android:id="@+id/btn_share"
+                style="@style/DecoButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_share" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_back_project"
+            style="@style/DecoButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_back_project" />
+    </LinearLayout>
+</ScrollView>

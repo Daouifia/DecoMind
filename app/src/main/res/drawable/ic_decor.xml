@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Projet : DecoMind
+  Fichier : ic_decor.xml
+  Description : Icône miroir (catégorie Décoration)
+  Responsable(s) :
+  - El Guettafi Soukaina
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="@color/primary"
+        android:fillType="evenOdd"
+        android:pathData="M12,2a10,10 0 1,0 0,20a10,10 0 1,0 0,-20z M12,5a7,7 0 1,1 0,14a7,7 0 1,1 0,-14z" />
+</vector>

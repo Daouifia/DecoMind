@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Projet : DecoMind
+  Fichier : menu_project_detail.xml
+  Description : Menu d'options de la fiche d'un projet
+  Responsable(s) :
+  - Lahroum Amina
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_edit_project"
+        android:title="@string/menu_edit_project"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_reminder"
+        android:title="@string/menu_set_reminder"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete_project"
+        android:title="@string/menu_delete_project"
+        app:showAsAction="never" />
+</menu>
